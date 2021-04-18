@@ -1,0 +1,45 @@
+.q-box{
+display: flex;
+margin-bottom: 0.5rem;
+width: 100%;
+font-size: 1.8rem;
+border: 3px solid black;
+background-color: white;
+}
+
+.q-box:hover{
+  cursor: pointer;
+  box-shadow: 10px 10px 8px #888888;
+  transition: transform 150ms;
+}
+
+.q-letter{
+padding: 1.5rem 2.5rem;
+background: #56a5eb;
+color: white;
+}
+
+.q-text{
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.correct {
+  background-color: #28a745;
+}
+
+.incorrect {
+  background-color: #dc3545;
+}
+
+#hud{
+  text-align: center;
+}
+
+.hud-letter{
+font-size: 40px;
+}
+
+h1{
+  text-align: center;
+}
